@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" class="home">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Shane Barakat</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="images\Gemini_Generated_Image_f89qcjf89qcjf89q.jpg" type="image/x-icon" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<div class = "whole">
+<body class="home">
+    <header>
+        <div class="inner">
+            <a class="name" href="index.html">Shane Barakat</a>
+            <nav class="nav-header">
+              <a href="work.html">Experience</a>
+              <a href="projects.html">Projects</a>
+              <a href="edu.html">Education</a>
+              <a href="service.html">Service</a>
+            </nav>
+            <div class="nav-header2 dropdown">
+              <button class="dropbtn">Menu</button>
+              <div class="dropdown-content">
+                <a href="work.html">Experience</a>
+                <a href="projects.html">Projects</a>
+                <a href="edu.html">Education</a>
+                <a href="service.html">Service</a>
+              </div>
+            </div>
+            
+          </div>
+    </header>
+
+    <section>
+        <div class="work">
+            <h2 class="big-titles">Work Experience</h2>
+            <div class="full">
+                <div class="flex-item"></div>
+                <h2 class="work-title">Supply Chain Optimization Analyst - Henkel</h2>
+                <h2 class="date">April 2024 - August 2024</h2>
+            </div>
+
+            <div class="work-item">
+                <img class="work-img" src="images/2560px-Henkel-Logo.svg (1).png" />
+                <img class="work-img2" src = "images\Henkel (1).png"/>
+                <p class="work-text">
+                    As a Supply Chain Data Analyst at Henkel Canada, I optimized supply chain
+                    processes through advanced data analysis and inventory management.
+                    Leveraging technical skills in Excel, Pandas, and VBA, I
+                    analyzed large datasets to generate actionable insights and improve
+                    efficiency. I monitored inventory levels, conducted audits, and
+                    implemented process improvements to enhance productivity and reduce
+                    costs. Additionally, I honed my soft skills in
+                    problem-solving, communication, and teamwork, effectively collaborating with
+                    cross-functional teams to achieve organizational goals.<br /><br />
+                    <a class="skill">Skills: Excel, VBA, Pandas, Problem-Solving, Communication, Teamwork </a>
+                </p>
+            </div>
+        </div>
+
+        <hr class="separate" />
+
+        <div class="work">
+            <div class="full">
+                <div class="flex-item"></div>
+                <h2 class="work-title">Lifeguard/ Swim Instructor - ORC</h2>
+                <h2 class="date">March 2021 - August 2023</h2>
+            </div>
+            <div class="last-work-item">
+                <img class="work-img" src="images/ORC (1) (1) (1).png" srcset="" />
+                <img class="work-img2" src = "images\ORC (2).png"/>
+                <p class="work-text">
+                    As a Lifeguard and Swim Instructor at Ontario Racquet Club, I
+                    ensured the safety and well-being of all swimmers while providing
+                    high-quality swim instruction. Utilizing my skills in lifesaving techniques,
+                    first aid, and CPR, I effectively responded to emergencies and provided critical care when
+                    needed. I also designed and delivered swim lessons, utilizing communication and
+                    instructional skills to teach swimming techniques to individuals of all ages and skill levels.
+                    Additionally, I honed my soft skills in teamwork, leadership, and
+                    customer service, ensuring a safe and enjoyable environment for all club members. <br /><br />
+                    <a class="skill">Skills: First Aid, CPR, Communication, Leadership, Customer Service </a>
+                </p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+        <footer class="outer">
+            <p>
+                © 2024 by Shane Barakat |
+                <a href="mailto:srbaraka@uwaterloo.ca">srbaraka@uwaterloo.ca</a>
+            </p>
+            <nav class="socials">
+                <a href="https://github.com/shanebarakat" target="_blank">
+                    <img src="images/1221583_github_logo_media_social_icon.png" alt="Github" /></a>
+                <a href="https://www.linkedin.com/in/shane-barakat/" target="_blank">
+                    <img src="images/icon-logo-linkedin.png" alt="LinkedIn" /></a>
+            </nav>
+        </footer>
+    </section>
+</div>
+    <div class="small">
+        <p class="small-text">
+          Unfortunately, this website is not yet optimized for smaller screens. Please open this website on your computer or increase the screen size for the best experience. Sorry for the inconvenience - Shane
+        </p>
+        
+        <nav class="socials2">
+          <a href="https://github.com/shanebarakat" target="_blank">
+            <img src="images/1221583_github_logo_media_social_icon.png" alt="Github" />
+          </a>
+          <a href="https://www.linkedin.com/in/shane-barakat/" target="_blank">
+            <img src="images/icon-logo-linkedin.png" alt="LinkedIn" />
+          </a>
+        </nav>
+      </div>
+    
+
+    <script>
+        // Initialize ScrollReveal with reset: false to ensure animations occur only once
+        ScrollReveal({ reset: false, distance: '60px', duration: 2500, delay: 400 });
+
+        // Reveal elements with specific configurations
+        ScrollReveal().reveal('.big-titles', { delay: 900, origin: 'top' });
+        ScrollReveal().reveal('.work-img', { delay: 1500, origin: 'left' });
+        ScrollReveal().reveal('.work-text', { delay: 1500, origin: 'bottom' });
+        ScrollReveal().reveal('.date', { delay: 1500, origin: 'right' });
+        ScrollReveal().reveal('.work-title', { delay: 1500, origin: 'bottom' });
+        ScrollReveal().reveal('.separate', { delay: 1500, origin: 'bottom' });
+        ScrollReveal().reveal('.work-img2', { delay: 500, origin: 'left' })
+
+        // Additional ScrollReveal configuration for other elements
+        ScrollReveal({ reset: false, distance: '30px', duration: 4000, delay: 200 });
+        ScrollReveal().reveal('.inner', { delay: 500, origin: 'top' });
+        ScrollReveal().reveal('.outer', { delay: 500, origin: 'bottom' });
+    </script>
+</body>
+</html>
